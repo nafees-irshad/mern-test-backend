@@ -1,7 +1,7 @@
 /** @format */
 
 import express from 'express';
-import limiter from './middlewares/rateLimiter.js';
+import limiter from './middleware/rateLimiter.js';
 import connectDb from './config/db.js';
 import dotenv from 'dotenv';
 import cors from 'cors';
